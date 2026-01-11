@@ -1,7 +1,7 @@
 <h1>Joke Machine Game</h1>
 
 <h2>Description</h2>
-Project consists in a Joke Machine made on a breadboard having a simple circuit attached to it in an Arduino IDE programming environment. 
+Project consists in a Joke Machine made on a breadboard having a simple circuit attached to it in an Arduino IDE programming environment. The code configures an ESP32 to connect to WiFi and fetch programming jokes from an online API to display on an ILI9341 screen. It utilizes HTTPClient for web requests and ArduinoJson to analise the incoming data, automatically handling both single and two-part joke formats. A physical button acts as a trigger, when pressed, it clears the display and initiates a new download cycle. The system also includes visual feedback for the connection status to ensure the device runs smoothly.
 <br />
 
 
